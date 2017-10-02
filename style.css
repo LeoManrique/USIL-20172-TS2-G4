@@ -1,6 +1,7 @@
 body {
     font-family: arial;
 	background-image: url("images/bg.jpg");
+	margin: 2%;
 }
 .linea {
     margin-bottom: 20px;
