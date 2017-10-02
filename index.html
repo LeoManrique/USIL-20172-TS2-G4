@@ -3,9 +3,11 @@
 	<head>
 		<title>Generador Algoritmos</title>
 		<link href = "style.css" rel = "stylesheet"/>
+		<link rel="shortcut icon" href="icon/robot.ico">
 	</head>
 	<body>
-		<div class = "linea">
+		
+		<div class = "linea" id = "izquierda1">
                 <label for="lenguaje">Lenguaje: </label>
                 <select name="lenguaje">
                     <option value="1">Python</option>
@@ -15,7 +17,7 @@
                 </select>
         </div>
 		
-		<div class = "linea">
+		<div class = "linea" id = "derecha1">
                 <label for="algoritmo">Algoritmo: </label>
                 <select name="algoritmo">
                     <option value="1">Hola Mundo</option>
@@ -27,7 +29,11 @@
 		
 		<div class="linea">
                 <label for="mensaje">Código: </label>
-                <textarea name="mensaje" id="mensaje"></textarea>
+                <textarea cols = 100 name="mensaje" id="mensaje"></textarea>
         </div>
+		
+		<div class="linea">
+				<input type="submit" value="Procesar">
+		</div>
 	</body>
 </html>
