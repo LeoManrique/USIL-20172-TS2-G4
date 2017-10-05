@@ -2,7 +2,7 @@ body {
     font-family: arial;
 	font-size: 16px;
 	background-image: url("images/bg.jpg");
-	margin: 2%;
+	margin: 3% 4%;
 }
 .linea {
     margin-bottom: 20px;
@@ -17,4 +17,19 @@ div.linea textarea {
     padding: 4px;
     width: 300px;
     height: 100px;
+}
+#parametros {
+	width: 18%;
+	float: left;
+}
+#izquierda1{
+	float: left;
+	width: 50%;
+}
+#derecha1{
+	float: right;
+	width: 50%;
+}
+.clear{
+	clear: both;
 }
