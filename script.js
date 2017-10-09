@@ -3,5 +3,6 @@ function upFunction(){
 };
 
 function downFunction(){
-	var feedback = prompt("¿Qué falla en el código?");
+	var feedback = prompt("Â¿QuÃ© falla en el cÃ³digo?");
+	alert("Gracias por tu aporte!");
 };
