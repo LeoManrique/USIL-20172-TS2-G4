@@ -9,9 +9,13 @@ body{
 }
 #cabecera{
 	padding: 3px;
-	background-color: gray;
-	font-family: Verdana;
+	background-color: #5e5e5e;
+	font-family: Courier;
 	padding-bottom:40px;
+	border-bottom: outset white 8px;
+	color: white;
+	font-weight: 800;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 #logo{
 	display: inline;
@@ -21,6 +25,7 @@ body{
 	height: 70px;
 	display: inline;
 	margin-top:20px;
+	margin-left: 10px;	
 }
 #titulo{
 	display: inline;
