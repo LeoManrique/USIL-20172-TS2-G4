@@ -1,9 +1,33 @@
-body {
+body{
+	background-image: url("images/bg.jpg");
+	margin: 0px;
+}
+#body {
     font-family: arial;
 	font-size: 16px;
-	background-image: url("images/bg.jpg");
 	margin: 40px 4%;
 }
+#cabecera{
+	padding: 3px;
+	background-color: gray;
+	font-family: Verdana;
+	padding-bottom:40px;
+}
+#logo{
+	display: inline;
+}
+#logo > img{
+	width: 70px;
+	height: 70px;
+	display: inline;
+	margin-top:20px;
+}
+#titulo{
+	display: inline;
+	font-size: 40px;
+	margin-left: 290px;
+}
+
 .linea {
     margin-bottom: 20px;
 }
@@ -22,6 +46,7 @@ div.linea textarea {
 	width: 340px;
 	float: left;
 }
+
 #izquierda1{
 	float: left;
 	width: 50%;
@@ -33,4 +58,15 @@ div.linea textarea {
 .clear{
 	clear: both;
 }
-
+textarea {
+    resize: none;
+}
+#submit{
+	display: inline;
+}
+#tup{
+	display: inline;
+}
+#tdown{
+	display: inline;
+}
