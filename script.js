@@ -4,5 +4,7 @@ function upFunction(){
 
 function downFunction(){
 	var feedback = prompt("¿Qué falla en el código?");
-	alert("Gracias por tu aporte!");
+	if (feedback) {
+		alert("Gracias por tu aporte!");
+	}
 };
