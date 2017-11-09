@@ -20,6 +20,7 @@ body{
 }
 #logo{
 	display: inline;
+	
 }
 #logo > img{
 	width: 70px;
@@ -27,11 +28,13 @@ body{
 	display: inline;
 	margin-top:20px;
 	margin-left: 10px;	
+	vertical-align: center;
 }
 #titulo{
 	display: inline;
 	font-size: 40px;
 	margin-left: 290px;
+	vertical-align: center;
 }
 
 .linea {
