@@ -52,10 +52,10 @@
 					<input type="submit" value="Procesar">
 			</div>
 			<div id = "tup" onclick="upFunction();">
-				<a href="#"><img src="images/tup.jpg" height=35 width=38/></a>
+				<a href="#"><img class = "timg" src="images/tup.jpg" height=35 width=38/></a>
 			</div>
 			<div id = "tdown" onclick="downFunction();">
-				<a href="#"><img src="images/tdown.jpg" height=35 width=38/></a>
+				<a href="#"><img class = "timg" src="images/tdown.jpg" height=35 width=38/></a>
 			</div>
 		</form>
 		</section>
