@@ -81,5 +81,8 @@ textarea {
 	display: inline;
 }
 .timg{
-	/*transform: scale(1.3);*/
+	transition: all 0.2s;
+}
+.timg:hover{
+	transform: Scale(1.3);
 }
