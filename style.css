@@ -2,20 +2,21 @@ body{
 	background-image: url("images/bg.jpg");
 	margin: 0px;
 }
-#body {
+#body{
     font-family: Courier New;
 	font-size: 16px;
 	margin: 30px 4%;
 	margin-bottom: 0;
 }
-option, select, input{
+.linea, option, label, select, input{
 	font-family: Courier New;
+	font-size: 16px;
 }
 #cabecera{
 	padding: 3px;
 	background-color: #5e5e5e;
 	font-family: Courier;
-	padding-bottom:20px;
+	padding-bottom:16px;
 	border-bottom: outset white 8px;
 	color: white;
 	font-weight: 800;
@@ -51,7 +52,7 @@ div.linea > label:first-child {
 div.linea textarea {
     font-family: Consolas;
     padding: 4px;
-    width: 300px;
+    width: 375px;
     height: 300px;
 }
 #parametros {
@@ -71,17 +72,26 @@ div.linea textarea {
 	clear: both;
 }
 textarea {
-    resize: none;
+    resize: none;*
 }
 #submit{
 	display: inline;
+	vertical-align: 70%;
 }
-#tup{
+#botones{
 	display: inline;
 	margin-left: 150px;
 }
+#tup{
+	display: inline;
+	border-radius: 15px;
+    border: 2px solid gray;
+	
+}
 #tdown{
 	display: inline;
+	border-radius: 15px;
+    border: 2px solid gray;
 }
 .timg{
 	transition: all 0.2s;

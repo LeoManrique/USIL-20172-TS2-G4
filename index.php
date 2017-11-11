@@ -49,12 +49,14 @@
 			<div class="linea" id = "submit" onclick="clickFunction();">
 					<input type="submit" value="Procesar">
 			</div>
-			<div id = "tup" onclick="upFunction();">
-				<a href="#"><img class = "timg" src="images/tup.jpg" height=35 width=38/></a>
-			</div>
-			<div id = "tdown" onclick="downFunction();">
-				<a href="#"><img class = "timg" src="images/tdown.jpg" height=35 width=38/></a>
-			</div>
+			<section id = "botones">
+				<span>
+					<a href="#"><img onclick="upFunction();" id = "tup" class = "timg" src="images/tup.jpg" height=35 width=38/></a>
+				</span>
+				<span>
+					<a href="#"><img  onclick="downFunction();" id = "tdown" class = "timg" src="images/tdown.jpg" height=35 width=38/></a>
+				</span>
+			</section>
 		</form>
 		</section>
 	</body>
