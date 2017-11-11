@@ -12,29 +12,29 @@ body{
 	padding: 3px;
 	background-color: #5e5e5e;
 	font-family: Courier;
-	padding-bottom:40px;
+	padding-bottom:20px;
 	border-bottom: outset white 8px;
 	color: white;
 	font-weight: 800;
 	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	vertical-align: center;
 }
 #logo{
 	display: inline;
+	width: 60px;
+	height: 60px;
+	margin-top:10px;
+	margin-left: 10px;
+	vertical-align: middle;
 	
 }
-#logo > img{
-	width: 70px;
-	height: 70px;
-	display: inline;
-	margin-top:20px;
-	margin-left: 10px;	
-	vertical-align: center;
-}
+
 #titulo{
 	display: inline;
-	font-size: 40px;
-	margin-left: 290px;
-	vertical-align: center;
+	font-size: 34px;
+	margin-left: 29px;
+	vertical-align: middle;
+	
 }
 
 .linea {

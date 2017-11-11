@@ -7,14 +7,12 @@
 		<link rel="shortcut icon" href="icon/robot.ico"/>
 	</head>
 	<body>
-		<div id = "cabecera">
-	    <div id = "logo">
-			<img src="http://www.usil.edu.pe/sites/default/files/logo-usil_0_0.png"/>
-		</div>
+		<header id = "cabecera">
+		<img id = "logo" src="http://www.usil.edu.pe/sites/default/files/logo-usil_0_0.png"/>
 		<div id = "titulo">
 			Generador de Algoritmos
 		</div>
-		</div>
+		</header>
 		<div class="clear"></div>
 		<section id = "body">
 		<form action = "procesar_parametros.php" method = "get">
