@@ -1,0 +1,91 @@
+body{
+	background-image: url("images/bg.jpg");
+	margin: 0px;
+}
+#body {
+    font-family: Courier New;
+	font-size: 16px;
+	margin: 30px 4%;
+	margin-bottom: 0;
+}
+option, select, input{
+	font-family: Courier New;
+}
+#cabecera{
+	padding: 3px;
+	background-color: #5e5e5e;
+	font-family: Courier;
+	padding-bottom:20px;
+	border-bottom: outset white 8px;
+	color: white;
+	font-weight: 800;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	vertical-align: center;
+}
+#logo{
+	display: inline;
+	width: 60px;
+	height: 60px;
+	margin-top:10px;
+	margin-left: 10px;
+	vertical-align: middle;
+	
+}
+
+#titulo{
+	display: inline;
+	font-size: 34px;
+	margin-left: 29px;
+	vertical-align: -31%;
+	
+}
+
+.linea {
+    margin-bottom: 20px;
+}
+div.linea > label:first-child {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+div.linea textarea {
+    font-family: Consolas;
+    padding: 4px;
+    width: 300px;
+    height: 300px;
+}
+#parametros {
+	width: 340px;
+	float: left;
+}
+
+#izquierda1{
+	float: left;
+	width: 50%;
+}
+#derecha1{
+	float: right;
+	width: 50%;
+}
+.clear{
+	clear: both;
+}
+textarea {
+    resize: none;
+}
+#submit{
+	display: inline;
+}
+#tup{
+	display: inline;
+	margin-left: 150px;
+}
+#tdown{
+	display: inline;
+}
+.timg{
+	transition: all 0.2s;
+}
+.timg:hover{
+	transform: Scale(1.3);
+}
